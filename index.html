@@ -65,6 +65,8 @@
                 </p>
                 <!-- mb-5 gives extra margin spacing under lead text -->
                 <p class="lead mb-5">Let's create something amazing together!</p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Subscribe to my news letter </button>
             </div>
         </section>
     </header>
@@ -104,6 +106,7 @@
                         dynamic environment, aiming to contribute to meaningful projects
                         and grow as part of a forward-thinking team.
                     </p>
+
                 </div>
             </div>
         </section>
@@ -130,39 +133,39 @@
                 </div>
                 <div class="col-12 col-md-6">
                     <div class="card">
-                        <img src="assets/images/portfolio-images/portfolio-images/wags-and-walks.webp"
-                            alt="A man walking several dogs early in the morning">
+                        <img src="assets/images/portfolio-images/portfolio-images/we-wellness.webp"
+                            alt="A spa with candles towels and natural material">
                         <div class="card-body">
-                            <h3 class="card-title">Wags & Walks</h3>
-                            <p class="card-text">A platform for a dog walking service designed to fit the busy
-                                lifestyles of pet owners. Focused on promoting a healthy life for dogs, this site
-                                showcases convenient scheduling options and services.</p>
+                            <h3 class="card-title">We Wellness</h3>
+                            <p class="card-text">A comprehensive platform offering a wide range of wellness services and
+                                high-end products. From yoga classes to nutritional guidance, users can find everything
+                                they need to nurture their body, mind, and spirit.</p>
                             <a href="#" class="btn btn-outline-secondary">Visit Site</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-6">
                     <div class="card">
-                        <img src="assets/images/portfolio-images/portfolio-images/wags-and-walks.webp"
-                            alt="A man walking several dogs early in the morning">
+                        <img src="assets/images/portfolio-images/portfolio-images/math-wiz.webp"
+                            alt="A child practicing maths at a computer">
                         <div class="card-body">
-                            <h3 class="card-title">Wags & Walks</h3>
-                            <p class="card-text">A platform for a dog walking service designed to fit the busy
-                                lifestyles of pet owners. Focused on promoting a healthy life for dogs, this site
-                                showcases convenient scheduling options and services.</p>
+                            <h3 class="card-title">Math Wiz</h3>
+                            <p class="card-text">An interactive website dedicated to helping kids master mathematics
+                                through games and challenges. Designed with young learners in mind, this platform turns
+                                complex problems into engaging activities.</p>
                             <a href="#" class="btn btn-outline-secondary">Visit Site</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-6">
                     <div class="card">
-                        <img src="assets/images/portfolio-images/portfolio-images/wags-and-walks.webp"
-                            alt="A man walking several dogs early in the morning">
+                        <img src="assets/images/portfolio-images/portfolio-images/bmi-calculator.webp"
+                            alt="Weighing scales seen from the first person view of the person standing on the scales">
                         <div class="card-body">
-                            <h3 class="card-title">Wags & Walks</h3>
-                            <p class="card-text">A platform for a dog walking service designed to fit the busy
-                                lifestyles of pet owners. Focused on promoting a healthy life for dogs, this site
-                                showcases convenient scheduling options and services.</p>
+                            <h3 class="card-title">BMI Calculator</h3>
+                            <p class="card-text"> Promoting a healthier lifestyle with an easy-to-use BMI Calculator.
+                                Designed to provide quick health assessments, this tool helps users understand and
+                                manage their body mass index with just a few clicks.</p>
                             <a href="#" class="btn btn-outline-secondary">Visit Site</a>
                         </div>
                     </div>
@@ -173,7 +176,85 @@
 
 
     </main>
+    <!--Contact Section-->
+    <footer id="contact" class="container">
+        <div class="row">
+            <div class="col-12 text-center my-4">
+                <h2 class="display-5">Contact</h2>
+                <p class="mt4">Got questions or ideas? I'd love to hear from you! Whether you're interested in
+                    collaboration, have inquiries about my projects, or wish to request a copy of my CV, please don't
+                    hesitate to get in touch. I'm always open to discussing new opportunities and how we can work
+                    together to create something amazing!
 
+                </p>
+            </div>
+            <div class="col-12 col-md-10 col-lg-8 mb-4">
+                <form class="row g-3">
+                    <div class="col-12 col-lg-4 justify-content-center">
+                        <label for="fname" class="form-label">Full name</label>
+                        <input type="text" class="form-control" id="fname">
+
+                    </div>
+
+                    <div class="col-12 col-lg-4 justify-content-center">
+                        <label for="phone-number" class="form-label">Phone number</label>
+                        <input type="text" class="form-control" id="phone-number">
+
+                    </div>
+
+                    <div class="col-12 col-lg-4 justify-content-center">
+
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email">
+
+                    </div>
+
+
+                    <div class="col-12">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" rows="3" id="message"></textarea>
+                    </div>
+
+
+
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Subscribe</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Join my newsletter for the latest updates on myprojects, coding tips, and industry insights
+                        delivered straight to your inbox.
+                        <form id="newsletter" class="container">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input id="name" type="text" class="form-control">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input id="email" type="email" class="form-control">
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary">Sign up!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 
